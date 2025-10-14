@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Prejuízos — Autorrelato (Adultos)</title>
+<title>Escala de Prejuízos Funcionais</title>
 <style>
   :root{
     --bg:#0e1625; --card:#14213b; --line:#2b3f66;
@@ -66,18 +66,18 @@
 <body>
 <div class="wrap">
   <div class="card">
-    <h1>Escala de Prejuízos — Autorrelato</h1>
+    <h1>Escala de Prejuízos Funcionais</h1>
     <p class="muted">
       Marque a opção que melhor indica a <b>frequência</b> com que você vivenciou cada situação nos últimos anos.
       Opções: <b>NA</b> (Não se aplica, <b>0</b>), <b>N</b> (Nunca, <b>0</b>), <b>R</b> (Raramente, <b>1</b>), <b>AV</b> (Algumas vezes, <b>2</b>), <b>MV</b> (Muitas vezes, <b>3</b>), <b>S</b> (Sempre, <b>4</b>).
     </p>
     <div class="legend">
-      <span class="pill">NA = Não se aplica (0)</span>
-      <span class="pill">N = Nunca (0)</span>
-      <span class="pill">R = Raramente (1)</span>
-      <span class="pill">AV = Algumas vezes (2)</span>
-      <span class="pill">MV = Muitas vezes (3)</span>
-      <span class="pill">S = Sempre (4)</span>
+      <span class="pill">NA = Não se aplica</span>
+      <span class="pill">N = Nunca</span>
+      <span class="pill">R = Raramente</span>
+      <span class="pill">AV = Algumas vezes</span>
+      <span class="pill">MV = Muitas vezes</span>
+      <span class="pill">S = Sempre</span>
     </div>
 
     <div id="pacInfo" class="grid-info" style="display:none;"></div>
@@ -106,7 +106,7 @@
 <script>
 /* ===== CONFIG ===== */
 const SHEETDB_BASE = "https://sheetdb.io/api/v1/8pmdh33s9fvy8";
-const SHEETS = { PATIENTS:"Patients", TOKENS:"LinkTokens", SCORES:"Score_EPF_ETDAH" };
+const SHEETS = { PATIENTS:"Patients", TOKENS:"LinkTokens", SCORES:"Scores_EPF_ETDAH" };
 const CODE = "EPF_ETDAH";
 const PORTAL_URL = "https://integradaneuropsicologia.github.io/formularios/";
 const RELEASE_KEYS = ["EPF_ETDAH"]; // coluna(s) de liberação, ajuste se quiser
